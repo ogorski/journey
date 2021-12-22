@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+    cursor: default;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-banner {
+    background-image: url("../assets/img/header-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 0 auto;
+    align-content: stretch;
+}
+
+.header-title {
+    color: white;
+    font-size: 21px;
+    margin-top: 50px;
+}
+
+.header-info {
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.header-btn {
+    margin-top: 45px;
+    background-color: burlywood;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 13px;
+    color: white;
+    width: 106px;
+    height: 48px;
+}
+
+.header-btn:hover {
+    color: burlywood;
+    background-color: black;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 645px;
+    margin-right: 45px;
+    cursor: default;
+    color: burlywood;
+}
+
+.nav-list > li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-list a:hover {
+    color: white;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.heading-title {
+    margin-top: 40px;
+    font-size: 21px;
+}
+
+.info {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.services-slider {
+    display: flex;
+    justify-content: center;
+}
+
+.title-heading {
+    margin-top: 50px;
+    font-size: 21px;
+}
