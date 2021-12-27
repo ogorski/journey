@@ -107,6 +107,10 @@ body {
 .services-slider {
     display: flex;
     justify-content: center;
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin: auto;
 }
 
 .title-heading {
@@ -144,4 +148,37 @@ body {
 .footer {
     margin-top: 50px;
     text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid transparent;
+    border-radius: 50%;    
+}
+
+.services-slider .slider-item {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.img-one {
+
+}
+
+.img-two {
+
+}
+
+.img-three {
+
+}
+
+.img-four {
+
+}
+
+.img-five {
+
 }
