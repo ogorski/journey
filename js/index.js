@@ -18,7 +18,7 @@ function showSlides(n) {
     let slides = document.getElementsByClassName("slider-item");
 
     if (n > slides.length) {
-        slides = 1;
+        slidesId = 1;
     }
 
     if (n < 1) {

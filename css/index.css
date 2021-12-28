@@ -147,7 +147,13 @@ body {
 
 .footer {
     margin-top: 50px;
+    padding: 48px;
     text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
 
 .team img {
@@ -165,28 +171,24 @@ body {
 
 .services-slider .slider-right {
     background-color: rgba(0, 0, 0, 0.2);
-    margin-left: 660px;
+    margin-left: 659px;
     border-radius: 3px 0 0 3px;
-    width: 300px;
-    height: 268px;
 }
 
 .services-slider .slider-left {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 3px 0 0 3px;
-    margin-right: 660px;
-    width: 300px;
-    height: 268px;
+    margin-right: 659px;
 }
 
 .services-slider .slider-left, .services-slider .slider-right {
     position: absolute;
     cursor: pointer;
     width: auto;
-    top: 10px;
+    top: 48%;
     font-weight: bold;
     font-size: 18px;
-    margin-top: -9px;
+    margin-top: -22px;
     padding: 16px;
     border-radius: 0 3px 3px 0;
     transition: 0.3s ease;
